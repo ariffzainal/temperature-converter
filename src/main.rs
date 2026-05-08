@@ -61,11 +61,11 @@ fn main() {
     if unit == "C" {
         let temp_fahrenheit = temp_value * 9.0 / 5.0 + 32.0;
         
-        println!("The temperature in Fahrenheit is {temp_fahrenheit:.2} F");
+        println!("The temperature in Fahrenheit is {temp_fahrenheit:.2} °F");
     } else if unit == "F" {
         let temp_celcius = (temp_value - 32.0) * 5.0 / 9.0;
 
-        println!("The temperature in Celcius is {temp_celcius:.2} C");
+        println!("The temperature in Celsius is {temp_celcius:.2} °C");
     } else {
         println!("Sorry my brain cannot compute maxxing");
     }
